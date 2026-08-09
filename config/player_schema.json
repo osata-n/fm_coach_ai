@@ -1,0 +1,127 @@
+{
+  "basic": {
+    "name": "string",
+    "age": "number",
+    "country": "string",
+    "reputation": "number",
+    "playing_time": "string",
+    "ability": "number",
+    "ability_league_level": "string",
+    "potential": "number",
+    "potential_league_level": "string"
+  },
+  "attributes": {
+    "technical": {
+      "crossing": "number",
+      "dribbling": "number",
+      "finishing": "number",
+      "first_touch": "number",
+      "heading": "number",
+      "long_shots": "number",
+      "marking": "number",
+      "passing": "number",
+      "penalty_taking": "number",
+      "tackling": "number",
+      "technique": "number"
+    },
+    "mental": {
+      "aggression": "number",
+      "anticipation": "number",
+      "bravery": "number",
+      "composure": "number",
+      "concentration": "number",
+      "decisions": "number",
+      "determination": "number",
+      "flair": "number",
+      "leadership": "number",
+      "off_the_ball": "number",
+      "positioning": "number",
+      "teamwork": "number",
+      "vision": "number",
+      "work_rate": "number"
+    },
+    "physical": {
+      "acceleration": "number",
+      "agility": "number",
+      "balance": "number",
+      "jumping_reach": "number",
+      "natural_fitness": "number",
+      "pace": "number",
+      "stamina": "number",
+      "strength": "number"
+    },
+    "goalkeeping": {
+      "aerial_reach": "number",
+      "command_of_area": "number",
+      "communication": "number",
+      "eccentricity": "number",
+      "handling": "number",
+      "kicking": "number",
+      "one_on_ones": "number",
+      "reflexes": "number",
+      "rushing_out": "number",
+      "throwing": "number"
+    },
+    "hidden": {
+      "consistency": "number",
+      "dirtiness": "number",
+      "important_matches": "number",
+      "injury_prone": "number",
+      "versatility": "number"
+    }
+  },
+  "coach_report": {
+    "summary": "string",
+    "strengths": ["string"],
+    "weaknesses": ["string"],
+    "personality": "string",
+    "media_handling": "string"
+  },
+  "positions": {
+    "gk": "number",
+    "sw": "number",
+    "dc": "number",
+    "dl": "number",
+    "dr": "number",
+    "wb_l": "number",
+    "wb_r": "number",
+    "dm": "number",
+    "mc": "number",
+    "ml": "number",
+    "mr": "number",
+    "amc": "number",
+    "aml": "number",
+    "amr": "number",
+    "st": "number"
+  },
+  "roles": ["string"],
+  "fitness": {
+    "condition": "number",
+    "match_fitness": "number",
+    "fatigue": "number"
+  },
+  "morale": "number",
+  "injuries": [
+    {
+      "type": "string",
+      "duration": "string",
+      "status": "string"
+    }
+  ],
+  "tactics_familiarity": {},
+  "match_ratings": ["number"],
+  "discipline": {
+    "yellow_cards": "number",
+    "red_cards": "number"
+  },
+  "hierarchy": "string",
+  "social_group": "string",
+  "contract": {
+    "club": "string",
+    "start_date": "string",
+    "end_date": "string",
+    "wage": "number",
+    "bonuses": {},
+    "clauses": {}
+  }
+}
